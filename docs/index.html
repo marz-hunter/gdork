@@ -291,7 +291,7 @@
                     originalDork = originalDork.replace(/ \| "([^"]+)"/gi, " | ");
                 }
 
-                const updatedLink = `https://www.google.com/search?q=${encodeURIComponent(originalDork)}`;
+                const updatedLink = `https://www.google.com/search?q=${encodeURIComponent(originalDork)}&num=500&safe=off&hl=en`;
             
                 link.textContent = originalDork;
                 link.href = updatedLink;
