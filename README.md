@@ -98,7 +98,7 @@ inurl:apidocs | inurl:api-docs | inurl:swagger | inurl:api-explorer site:"exampl
 ### Login Pages
 
 ```
-inurl:login | inurl:signin | intitle:login | intitle:signin | inurl:secure site:example[.]com
+inurl:login | inurl:signin | intitle:login | intitle:signin | inurl:secure | inurl:register | inurl:signup | inurl:sign-up | inurl:sign_up | intitle:register | intitle:signup | intitle:"sign up" site:example[.]com
 ```
 
 ### Test Environments
